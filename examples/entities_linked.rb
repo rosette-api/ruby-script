@@ -24,7 +24,8 @@ request["Content-Type"] = "application/json"
 request["Accept"] = "application/json"
 entities_linked_text_data = "Last month director Paul Feig announced the movie will have an all-star female cast including Kristen Wiig, Melissa McCarthy, Leslie Jones and Kate McKinnon."
 content = {
-	content: entities_linked_text_data
+	content: entities_linked_text_data,
+    genre: "social-media"
 }
 JSONbody = content.to_json
 
