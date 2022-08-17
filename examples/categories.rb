@@ -22,7 +22,7 @@ request = Net::HTTP::Post.new(uri.request_uri)
 request["X-RosetteAPI-Key"] = api_key
 request["Content-Type"] = "application/json"
 request["Accept"] = "application/json"
-categories_url_data = "http://www.onlocationvacations.com/2015/03/05/the-new-ghostbusters-movie-begins-filming-in-boston-in-june/"
+categories_url_data = "https://www.rosette.com/about/"
 content = {
     contentUri: categories_url_data
 }
