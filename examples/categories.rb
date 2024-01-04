@@ -22,9 +22,9 @@ request = Net::HTTP::Post.new(uri.request_uri)
 request["X-RosetteAPI-Key"] = api_key
 request["Content-Type"] = "application/json"
 request["Accept"] = "application/json"
-categories_url_data = "https://www.rosette.com/about/"
+categories_text_data = "If you are a fan of the British television series Downton Abbey and you are planning to be in New York anytime before April 2nd, there is a perfect stop for you while in town."
 content = {
-    contentUri: categories_url_data
+    content: categories_text_data
 }
 JSONbody = content.to_json
 
